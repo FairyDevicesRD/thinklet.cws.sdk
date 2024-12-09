@@ -2,9 +2,11 @@ package ai.fd.thinklet.app.cwssdksample
 
 import ai.fd.thinklet.app.cwssdk.CwsSdk
 import ai.fd.thinklet.app.cwssdksample.databinding.ActivityMainBinding
+import android.content.IntentFilter
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -18,6 +20,14 @@ class MainActivity : AppCompatActivity() {
         // activity_main.xml
         ActivityMainBinding.inflate(layoutInflater)
     }
+
+    private val commandReceiver = CommandReceiver(object : CommandReceiver.CommandReceiverCallback {
+        override fun onSentCommandResult(invokeResult: String) {
+            CoroutineScope(Dispatchers.Main).launch {
+                binding.textviewReplyCommandResult.text = invokeResult
+            }
+        }
+    })
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,5 +61,48 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        // send message
+        val sendMessageFuture = cws.sendMessage(customData = "send custom data.")
+        sendMessageFuture.whenComplete { _, throwable ->
+            var message = "success"
+            throwable?.message?.also { throwableMessage ->
+                message = throwableMessage
+            }
+            Log.d(TAG, "sendMessage result message: $message")
+            CoroutineScope(Dispatchers.Main).launch {
+                binding.textviewSendMessageResult.text = message
+            }
+        }
+
+        // send error message
+        val sendErrorMessageFuture = cws.sendErrorMessage(customData = "send custom error data.")
+        sendErrorMessageFuture.whenComplete { _, throwable ->
+            var message = "success"
+            throwable?.message?.also { throwableMessage ->
+                message = throwableMessage
+            }
+            Log.d(TAG, "sendErrorMessage result message: $message")
+            CoroutineScope(Dispatchers.Main).launch {
+                binding.textviewSendErrorMessageResult.text = message
+            }
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        ContextCompat.registerReceiver(
+            applicationContext,
+            commandReceiver,
+            IntentFilter(CommandReceiver.INTENT_ACTION),
+            ContextCompat.RECEIVER_EXPORTED
+        )
+    }
+
+    override fun onStop() {
+        unregisterReceiver(commandReceiver)
+
+        super.onStop()
     }
 }

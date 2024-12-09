@@ -189,5 +189,91 @@
                     android:textSize="15sp" />
             </LinearLayout>
         </LinearLayout>
+
+        <!-- send message & reply command result -->
+        <LinearLayout
+            android:id="@+id/send_message_and_reply_command_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:text="SendMessage&amp;ReplyCommandResult" />
+
+            <!-- send message -->
+            <LinearLayout
+                android:id="@+id/send_message_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="send message result:"
+                    android:textSize="15sp" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/textview_send_message_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <!-- send error message -->
+            <LinearLayout
+                android:id="@+id/send_error_message_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="send error message result:"
+                    android:textSize="15sp" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/textview_send_error_message_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <!-- reply command result -->
+            <LinearLayout
+                android:id="@+id/reply_command_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="reply command result:"
+                    android:textSize="15sp" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/textview_reply_command_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

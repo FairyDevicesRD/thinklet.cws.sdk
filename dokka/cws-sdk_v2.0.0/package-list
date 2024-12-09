@@ -1,0 +1,52 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception////PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsRequestInfoGetFailedException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-request-info-get-failed-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsRequestInfoGetFailedException/CwsRequestInfoGetFailedException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-request-info-get-failed-exception/-cws-request-info-get-failed-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsRequestInfoGetFailedException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-request-info-get-failed-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsSdkException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-sdk-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsSdkException/CwsSdkException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-sdk-exception/-cws-sdk-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsSdkException/cause/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-sdk-exception/cause.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsSdkException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-sdk-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/CwsSdkException/toString/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-cws-sdk-exception/to-string.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/NotActivatedException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-not-activated-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/NotActivatedException/NotActivatedException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-not-activated-exception/-not-activated-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/NotActivatedException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-not-activated-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeAnnotationNotFoundException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-annotation-not-found-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeAnnotationNotFoundException/RequiredVersionCodeAnnotationNotFoundException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-annotation-not-found-exception/-required-version-code-annotation-not-found-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeAnnotationNotFoundException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-annotation-not-found-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeException/RequiredVersionCodeException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-exception/-required-version-code-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeMethodNotFoundException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-method-not-found-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeMethodNotFoundException/RequiredVersionCodeMethodNotFoundException/#kotlin.Throwable?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-method-not-found-exception/-required-version-code-method-not-found-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeMethodNotFoundException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-method-not-found-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeOutOfRangeException///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-out-of-range-exception/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeOutOfRangeException/RequiredVersionCodeOutOfRangeException/#kotlin.Throwable?#kotlin.Long#kotlin.Long/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-out-of-range-exception/-required-version-code-out-of-range-exception.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.exception/RequiredVersionCodeOutOfRangeException/message/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.exception/-required-version-code-out-of-range-exception/message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.extension////PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.extension/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws.extension//getCwsRequestInfo/android.content.Intent#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws.extension/get-cws-request-info.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws////PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsAuthorizationInfo///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-authorization-info/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsAuthorizationInfo/CwsAuthorizationInfo/#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-authorization-info/-cws-authorization-info.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsAuthorizationInfo/applicationId/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-authorization-info/application-id.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsAuthorizationInfo/clientId/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-authorization-info/client-id.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsAuthorizationInfo/clientSecret/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-authorization-info/client-secret.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsRequestInfo///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-request-info/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsRequestInfo/CwsRequestInfo/#android.content.Intent/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-request-info/-cws-request-info.md
+$dokka.location:ai.fd.thinklet.app.cwssdk.interface.cws/CwsRequestInfo/token/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk.interface.cws/-cws-request-info/token.md
+$dokka.location:ai.fd.thinklet.app.cwssdk////PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk///PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/index.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/CwsSdk/#android.content.Context/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/-cws-sdk.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/getCwsAuthorizationInfo/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/get-cws-authorization-info.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/getCwsSdkVersion/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/get-cws-sdk-version.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/getMdmVersionCode/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/get-mdm-version-code.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/getMdmVersionName/#/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/get-mdm-version-name.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/replyCommandResult/#kotlin.String?#ai.fd.thinklet.app.cwssdk.interface.cws.CwsRequestInfo#kotlin.Boolean/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/reply-command-result.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/sendErrorMessage/#kotlin.String?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/send-error-message.md
+$dokka.location:ai.fd.thinklet.app.cwssdk/CwsSdk/sendMessage/#kotlin.String?/PointingToDeclaration/cws-sdk_v2.0.0/ai.fd.thinklet.app.cwssdk/-cws-sdk/send-message.md
+ai.fd.thinklet.app.cwssdk
+ai.fd.thinklet.app.cwssdk.interface.cws
+ai.fd.thinklet.app.cwssdk.interface.cws.exception
+ai.fd.thinklet.app.cwssdk.interface.cws.extension
+
